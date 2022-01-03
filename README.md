@@ -6,7 +6,7 @@ Built following instructions defined in the [SwiftSyntax](https://github.com/app
 
 _InternalSwiftSyntaxParser Release Tag|[SwiftSyntax](https://github.com/apple/swift-syntax) Release Tag|[Swift](https://github.com/apple/swift) Release Tag
 ---|---|---
-`swift-5.5-RELEASE`|`0.50500.0`|`swift-5.5-RELEASE`
+`0.50500.0`|`0.50500.0`|`swift-5.5-RELEASE`
 
 # Usage
 
@@ -21,7 +21,7 @@ let package = Package(
         .library(name: "MyLibrary", targets: ["MyLibrary"]),
     ],
     dependencies: [
-        .package(name: "_InternalSwiftSyntaxParser", url: "https://github.com/liamnichols/_InternalSwiftSyntaxParser.git", .exact("swift-5.5-RELEASE")),
+        .package(name: "_InternalSwiftSyntaxParser", url: "https://github.com/liamnichols/_InternalSwiftSyntaxParser.git", .exact("0.50500.0")),
         .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50500.0"))
     ],
     targets: [
